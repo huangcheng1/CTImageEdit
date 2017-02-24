@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CTImageEdit_Example' do
+  pod 'CTImageEdit', :path => '../'
+
+  target 'CTImageEdit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
